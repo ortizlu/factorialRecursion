@@ -1,5 +1,5 @@
 # Factorial Recursion in JS
-## How factorial recursion actually works, with n = 3 as an example
+How factorial recursion actually works, with n = 3 as an example
 
 
 ## STACK 1
