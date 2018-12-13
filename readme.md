@@ -83,11 +83,13 @@ HOW THE RECURSION ACTUALLY WORKS, WITH n = 3
    if (3 < 2) {
      return n
    }
- this finally allows us to return the two that was taken from the stack above, with the result being 6
+ //this finally allows us to return the two that was taken from the stack above, with the result being 6
    return 3 * 2
  }
 ```
 
+```
   ===========================================
-  |          return 3 * 2                    |
+  |          return 3 * 2                   |
   ===========================================
+```
