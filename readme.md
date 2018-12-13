@@ -1,6 +1,8 @@
 # Factorial Recursion in JS
 ## How factorial recursion actually works, with n = 3 as an example
 
+Roses are <span style="color:red">red</span>, violets are <span style="color:blue">blue</span>.
+
 
 ## STACK 1
 ```js
