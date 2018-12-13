@@ -1,5 +1,8 @@
-***HOW THE RECURSION ACTUALLY WORKS, WITH n = 3
+#Factorial Recursion in JS
+##How factorial recursion actually works, with n = 3 as an example
 
+
+##STACK 1
 ```js
  function factorial(3) {
    if (3 < 2) {
