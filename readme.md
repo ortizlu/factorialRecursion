@@ -44,6 +44,7 @@ HOW THE RECURSION ACTUALLY WORKS, WITH n = 3
    }
 ```
 
+```
  function stops here. Now, if we step backwards to our last stack,
 
         =============================
@@ -55,7 +56,7 @@ HOW THE RECURSION ACTUALLY WORKS, WITH n = 3
   ===========================================
   |         return 3 * factorial(2)         |
   ===========================================
-
+```
 **************************************************************************************
 ```js
  function factorial(2) {
