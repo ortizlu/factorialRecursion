@@ -1,8 +1,6 @@
 # Factorial Recursion in JS
 ## How factorial recursion actually works, with n = 3 as an example
 
-Roses are <span style="color:red">red</span>, violets are <span style="color:blue">blue</span>.
-
 
 ## STACK 1
 ```js
@@ -21,6 +19,7 @@ Roses are <span style="color:red">red</span>, violets are <span style="color:blu
   ===========================================
 ```
 **************************************************************************************
+## STACK 2
 
 ```js
  function factorial(2) {
@@ -41,6 +40,7 @@ Roses are <span style="color:red">red</span>, violets are <span style="color:blu
   ===========================================
 ```
 **************************************************************************************
+## STACK 3
 
 ```js
  function factorial(1) {
@@ -63,6 +63,9 @@ Roses are <span style="color:red">red</span>, violets are <span style="color:blu
   ===========================================
 ```
 **************************************************************************************
+## STACK 2
+
+
 ```js
  function factorial(2) {
    if (2 < 2) {
@@ -82,6 +85,9 @@ Roses are <span style="color:red">red</span>, violets are <span style="color:blu
   |         return 3 * factorial(2)         |
   ===========================================
 ```
+
+**************************************************************************************
+## STACK 1
 
 ```js
  function factorial(3) {
