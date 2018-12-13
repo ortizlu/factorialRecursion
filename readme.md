@@ -1,4 +1,4 @@
-HOW THE RECURSION ACTUALLY WORKS, WITH n = 3
+***HOW THE RECURSION ACTUALLY WORKS, WITH n = 3
 
 ```js
  function factorial(3) {
