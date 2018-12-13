@@ -65,16 +65,18 @@ HOW THE RECURSION ACTUALLY WORKS, WITH n = 3
    }
  //this has to run function again before it gives us the return again
    return 2 * 1
- so the 1 is finally multiplied with the two, and returned, let's take one more step back up the stack
+ //so the 1 is finally multiplied with the two, and returned, let's take one more step back up the stack
  }
 ```
 
+```
     ======================================
     |            return 2 * 1            |
     ======================================
   ===========================================
   |         return 3 * factorial(2)         |
   ===========================================
+```
 
 ```js
  function factorial(3) {
