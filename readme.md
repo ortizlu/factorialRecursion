@@ -50,7 +50,7 @@ How factorial recursion actually works, with n = 3 as an example
 ```
 
 ```
- function stops here. Now, if we step backwards to our last stack,
+ function stops here. Now, if we step backwards to our last stack...
 
         =============================
         |         return 1          |
@@ -71,9 +71,8 @@ How factorial recursion actually works, with n = 3 as an example
    if (2 < 2) {
      return n
    }
- //this has to run function again before it gives us the return again
    return 2 * 1
- //so the 1 is finally multiplied with the two, and returned, let's take one more step back up the stack
+ //so the 1 is finally multiplied with the two, and returned, we are in stack 2, let's go back to stack 1
  }
 ```
 
